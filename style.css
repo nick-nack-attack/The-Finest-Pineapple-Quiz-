@@ -3,13 +3,21 @@
   }
   
   .container {
-    max-width: 350px;
-    margin: 0 auto;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .title-of-quiz {
+    width: 350px;
   }
   
   .quiz-card {
+    display: block;
     border: 2px grey solid;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(250, 250, 250);
+    height: 500px;
   }
   
   b {
@@ -17,36 +25,43 @@
   }
   
   .response-card-correct {
-    display: inline-block;
     border: 2px green dotted;
     margin: 20px auto;
     padding: 10px;
     vertical-align: center;
     background-color: rgb(220, 255, 220);
+    height: 500px;
   }
 
   .response-card-wrong {
-    display: inline-block;
     border: 2px red dotted;
     margin: 20px auto;
     padding: 10px;
     vertical-align: center;
     background-color: rgb(255, 220, 220);
+    height: 500px;
   }
 
   .announce-card {
-    display: inline-block;
+    display: block;
     border: 2px black dotted;
     margin: 20px auto;
     padding: 10px;
-    vertical-align: center;
     background-color: rgb(238, 255, 0);
+    height: 500px;
   }
   
   img {
     height: 100px;
     float: left;
     margin-right: 10px;
+  }
+
+  .main-card-image {
+      margin: 0;
+      height: 100px;
+      width: 100%;
+      background-image: url('https://ichef.bbci.co.uk/images/ic/704xn/p0735xlw.jpg');
   }
   
   #main-icon {
@@ -56,7 +71,14 @@
   button {
       border: 2px black solid;
       padding: 5px 15px;
-      font-size: 12px;
+      font-size: 15px;
+      width: 100%;
+      margin: 5px auto;
+  }
+
+  .button-bar {
+      display: flex-wrap;
+      justify-content: flex-end;
   }
 
   .disabled-button {
