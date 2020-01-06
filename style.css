@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  
+  .quiz-card {
+    border: 2px grey solid;
+    padding: 20px;
+  }
+  
+  b {
+    color: green;
+  }
+  
+  .response-card-correct {
+    display: inline-block;
+    border: 2px green dotted;
+    margin: 20px auto;
+    padding: 10px;
+    vertical-align: center;
+    background-color: rgb(220, 255, 220);
+  }
+
+  .response-card-wrong {
+    display: inline-block;
+    border: 2px red dotted;
+    margin: 20px auto;
+    padding: 10px;
+    vertical-align: center;
+    background-color: rgb(255, 220, 220);
+  }
+
+  .announce-card {
+    display: inline-block;
+    border: 2px black dotted;
+    margin: 20px auto;
+    padding: 10px;
+    vertical-align: center;
+    background-color: rgb(238, 255, 0);
+  }
+  
+  img {
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  #main-icon {
+    height: 75px;
+  }
+
+  button {
+      border: 2px black solid;
+      padding: 5px 15px;
+      font-size: 12px;
+  }
+
+  .disabled-button {
+      background-color: rgb(209, 209, 209);
+  }
+ 
+  .call-to-action {
+      font-weight: bold;
+  }
+
+  .correct-answer-label {
+    font-weight: bold;
+    color: hotpink;
+  }
